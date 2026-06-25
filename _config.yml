@@ -1,0 +1,5 @@
+# GitHub Pages config for the public RufusFox legal site.
+# The minimal theme just gives the Markdown pages clean, readable styling.
+title: RufusFox — Legal
+description: Privacy Policy, Terms of Use, and account deletion for the RufusFox app.
+theme: jekyll-theme-minimal
