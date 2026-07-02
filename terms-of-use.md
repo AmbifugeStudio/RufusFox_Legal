@@ -1,7 +1,7 @@
 # RufusFox — Terms of Use
 
 **Effective date:** 25 June 2026
-**Last updated:** 25 June 2026
+**Last updated:** 2 July 2026
 
 These Terms of Use ("**Terms**") govern your use of the **RufusFox** Android app
 ("**RufusFox**", "the app"). The app is provided by **Ambifuge Studio**, an
@@ -14,9 +14,9 @@ If you do not agree, do not use the app.
 ## 1. The service
 
 RufusFox is a personal productivity app for capturing tasks, planning on a
-calendar, keeping lists, tracking water and medication, and running a timer. It
-works offline; an **optional account** enables cloud backup and sync via Google
-Firebase.
+calendar, keeping lists, tracking habits, saving ideas/links, tracking water and
+medication, and running a timer. It works offline; an **optional account**
+enables cloud backup and sync via Google Firebase.
 
 ## 2. Your account
 
@@ -33,16 +33,27 @@ You agree not to:
 
 - use the app for any unlawful purpose or in violation of these Terms;
 - attempt to break, overload, probe, or circumvent the app's security, the
-  backend, or its abuse-protection (including the feedback channel);
+  backend, or its abuse-protection (including the feedback and "What's new"
+  response channels);
 - access or interfere with data that is not yours, or reverse-engineer the service
-  except to the extent this restriction is prohibited by law.
+  except to the extent this restriction is prohibited by law;
+- submit unlawful, infringing, abusive, or harassing content through the
+  **feedback** or **"What's new" comment/vote** features. These messages are
+  visible to us and may be reviewed manually to respond to you or improve the
+  app.
 
 ## 4. Your content
 
-- Your content (tasks, lists, notes, and other data you enter) **belongs to you**.
-  We claim no ownership of it.
+- Your content (tasks, lists, notes, ideas/links, and other data you enter)
+  **belongs to you**. We claim no ownership of it.
 - You are responsible for your content and for keeping your own copies; the
-  **"Export my data"** feature lets you download a full copy at any time.
+  **"Export my data"** feature lets you download a full copy at any time, and
+  **"Import my data"** lets you restore a previously exported copy.
+- When you save a link in **Ideas**, the app may automatically fetch a title and
+  thumbnail from that link's website (or from YouTube, for YouTube links) to show
+  a preview. This sends the link and a request to that third-party site — only
+  do this for links you're comfortable requesting a preview for. See the
+  **Privacy Policy** for details.
 - RufusFox is **not** a medical device. Medication and water tracking are
   **reminders and personal logs only** and must **not** be relied on as medical
   advice. Always follow the guidance of a qualified professional.
@@ -66,8 +77,10 @@ licenses" screen and govern those components.
 ## 7. Third-party services
 
 The app relies on **Google Firebase** for accounts, sync, and abuse protection.
-Your use of those features is also subject to Google's applicable terms. We are
-not responsible for third-party services.
+The **Ideas** feature may also contact **YouTube** or the website behind a link
+you save, to fetch a preview title/thumbnail. Your use of those features is also
+subject to the relevant third party's applicable terms. We are not responsible
+for third-party services or the content of external websites.
 
 ## 8. Disclaimers and limitation of liability
 

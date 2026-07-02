@@ -1,7 +1,7 @@
 # RufusFox — Privacy Policy
 
 **Effective date:** 25 June 2026
-**Last updated:** 25 June 2026
+**Last updated:** 2 July 2026
 
 This Privacy Policy explains what personal data the **RufusFox** Android app
 ("**RufusFox**", "the app", "we", "us") collects, why, how it is stored, and the
@@ -18,10 +18,12 @@ of RufusFox **without an account**; some features (cloud backup/sync) require on
 
 ## 1. Summary (the short version)
 
-- RufusFox works **offline-first**. Your tasks, lists, water, medication and
-  settings are stored **on your device**.
-- If you **create an account and sign in**, that data is also backed up to
-  **Google Firebase (Firestore)** so you can restore it on another device.
+- RufusFox works **offline-first**. Your tasks, lists, water, medication, habits
+  and settings are stored **on your device**.
+- If you **create an account and sign in**, your data is also backed up to
+  **Google Firebase (Firestore)** so you can restore it on another device —
+  **except your medication data, which always stays on your device and is never
+  uploaded to our servers.**
 - We do **not** sell your data, show ads, or use it for advertising or profiling.
 - You can **export** all your data and **permanently delete** your account and
   data from inside the app at any time.
@@ -42,13 +44,35 @@ legal bases are shown in brackets.
 
 ### b) App content (your RufusFox data)
 - **What:** the content you create in the app — tasks, lists, water intake,
-  medication and courses, the timer, and your in-app settings.
+  habits, ideas/links, the timer, and your in-app settings.
 - **Where:** always on your device; **additionally** synced to Firestore **only
   while you are signed in**.
 - **Why:** to provide the app's core functionality and to back up/restore your
   data across devices.
 - **Legal basis:** performance of a contract / our legitimate interest in
   providing a working, recoverable app.
+
+### b2) Medication data — stays on your device only
+- **What:** the medication-related data you enter — medicine names, doses, intake
+  ("taken") logs, and courses. This can be **health-related** information.
+- **Where:** stored **only on your device**. It is **never uploaded** to our
+  servers — **even when you are signed in and cloud sync is on.** It is included
+  only in the **data export you generate yourself** (Section 8), which you control
+  and which you alone choose to save or share.
+- **Why:** to let you track your own medicines locally, without us processing your
+  health data.
+- **Note:** RufusFox is a personal tool, **not a medical app or medical device**,
+  and does not provide medical advice. **You are responsible for the information
+  you enter and keep.** Because this data is not uploaded, it is **not part of cloud
+  backup** — if you lose or reset your device without exporting, it cannot be
+  recovered by us.
+
+### b3) Free-text fields
+- Some fields (e.g. task, list, and habit **names and notes**) are free text. If
+  you choose to type health-related or other sensitive information into them, that
+  text **syncs with your other app content while you are signed in** (it is ordinary
+  app content to us — we do not structure, analyze, or use it as health data).
+  Please avoid entering sensitive details you do not want synced.
 
 ### c) Diagnostics & crash reports
 - **What:** if RufusFox crashes, a report can include the error details, your
@@ -67,6 +91,30 @@ legal bases are shown in brackets.
 - **Why:** to respond to and act on your feedback.
 - **Legal basis:** our legitimate interest in supporting and improving the app.
 
+### d2) "What's new" responses (votes and comments)
+- **What:** if you vote (yes/no) or write a comment on an in-app announcement,
+  we receive that vote/comment plus app version, device model, OS, and (if
+  signed in) your account email/ID — the same shape as feedback, stored
+  separately.
+- **Why:** to understand reaction to app changes and, if you leave a comment, to
+  read and consider it.
+- **Legal basis:** our legitimate interest in improving the app. Voting/
+  commenting is optional — you can always dismiss an announcement without
+  responding.
+
+### d3) Link previews (Ideas)
+- **What:** when you save a link in the **Ideas** feature, the app sends that
+  URL in a request to **YouTube's oEmbed service** (for YouTube links) or to the
+  **website the link points to** (for other links), to fetch a title and, for
+  YouTube, a thumbnail. That website or YouTube will see the requested URL and
+  technical request data (such as your device's IP address), the same as if you
+  had opened the link in a browser.
+- **Why:** to show you a readable preview instead of a raw URL.
+- **Legal basis:** your action of saving the link (necessary to perform the
+  feature you requested). We do not send any other app data in this request,
+  and we do not read or store the fetched page beyond the title/thumbnail shown
+  to you.
+
 ### e) Notifications
 - The app schedules **local** reminders (medication, water, daily summaries,
   timer). These are generated on your device; no personal data is sent to us to
@@ -82,12 +130,19 @@ data, and we do not track you across other apps or websites.
 We do not sell or rent your data. We use the following processor to provide the
 service:
 
-- **Google Firebase** (Firebase Authentication, Cloud Firestore, App Check) —
-  Google Ireland Ltd. / Google LLC — hosts your account and your synced app data,
-  and protects the backend from abuse. Google acts as our data **processor** under
-  its Data Processing Terms.
+- **Google Firebase / Google** (Firebase Authentication, **Google Sign-In**, Cloud
+  Firestore, **App Check with Play Integrity**) — Google Ireland Ltd. / Google LLC —
+  hosts your account and your synced app data, and protects the backend from abuse.
+  **App Check uses Google Play Integrity, which sends app and device integrity
+  signals to Google** to verify that requests come from a genuine, untampered app.
+  Google acts as our data **processor** under its Data Processing Terms.
+- **YouTube / the website behind a link you save** — when you save a link in
+  **Ideas**, we send the URL to that site (or to YouTube's oEmbed service, for
+  YouTube links) to fetch a preview title/thumbnail (see Section 2, d3). We do
+  not control what that third party does with the request; see their own
+  privacy policy.
 
-Aside from this processor, we only disclose data if required by law.
+Aside from these, we only disclose data if required by law.
 
 ---
 
@@ -143,6 +198,9 @@ to **withdraw consent**. RufusFox supports the main rights directly in the app:
 
 - **Export your data:** Settings → "Your data" → **"Export my data"** produces a
   complete JSON file of your app data that you can save or share.
+- **Import your data:** Settings → "Your data" → **"Import my data"** lets you
+  restore a previously exported JSON file, replacing your current data after you
+  confirm.
 - **Delete your account and data:** Settings → Account → **"Delete account &
   data"** permanently deletes your account and all your cloud data (and wipes the
   local copy on that device). **This cannot be undone.**
