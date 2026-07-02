@@ -7,9 +7,8 @@ This Privacy Policy explains what personal data the **RufusFox** Android app
 ("**RufusFox**", "the app", "we", "us") collects, why, how it is stored, and the
 rights you have over it.
 
-**Provider / data controller:** Ambifuge Studio (an individual developer based in
-Hungary), contact **rufusfox.support@gmail.com**. You can ask for the name of the
-responsible individual at that address.
+**Provider / data controller:** **László Szarka**, an individual developer based in
+Hungary, operating as **Ambifuge Studio**. Contact: **rufusfox.support@gmail.com**.
 
 If you do not agree with this policy, please do not use the app. You can use most
 of RufusFox **without an account**; some features (cloud backup/sync) require one.
@@ -87,7 +86,9 @@ legal bases are shown in brackets.
 
 ### d) Feedback you send
 - **What:** the message you write, plus app version, device model, OS, and (if
-  signed in) your account email/ID.
+  signed in) your account email/ID. If you leave the **"include diagnostics"**
+  option on when sending, the report also attaches recent in-app **diagnostic
+  logs and crash history** (technical events — not your tasks/notes; see (c)).
 - **Why:** to respond to and act on your feedback.
 - **Legal basis:** our legitimate interest in supporting and improving the app.
 
@@ -120,6 +121,15 @@ legal bases are shown in brackets.
   timer). These are generated on your device; no personal data is sent to us to
   deliver them.
 
+### f) Technical connection data
+- **What:** when your device contacts our backend (sign-in, sync, feedback,
+  "What's new", App Check), the request necessarily carries technical data such
+  as your device's **IP address** and request timestamps.
+- **Why:** this is inherent to any internet request; Google (our processor) uses
+  it to route, deliver, and secure the request and to protect the backend from
+  abuse. We do not use it to build advertising or tracking profiles.
+- **Legal basis:** our legitimate interest in providing and securing the service.
+
 We do **not** collect advertising identifiers, contacts, location, or biometric
 data, and we do not track you across other apps or websites.
 
@@ -148,11 +158,17 @@ Aside from these, we only disclose data if required by law.
 
 ## 4. International transfers
 
-Firebase/Firestore may store and process data on **Google servers located outside
-Hungary/the EEA, including in the United States**. Where data is transferred
-outside the EEA/UK, Google relies on safeguards such as the **EU Standard
-Contractual Clauses**. See Google's Privacy Policy and Cloud Data Processing Terms
-for details.
+- **Your synced app data (Firestore) is stored in the EU region.** We have
+  configured Cloud Firestore to store and process your account/app data within
+  the EU.
+- **Sign-in and abuse-protection requests (Firebase Authentication, Google
+  Sign-In, App Check/Play Integrity) may involve Google's global
+  infrastructure**, which can process data outside Hungary/the EEA, including in
+  the United States. This does not include your app content — only
+  authentication and integrity-check traffic.
+- Where any data is transferred outside the EEA/UK, Google relies on safeguards
+  such as the **EU Standard Contractual Clauses**. See Google's Privacy Policy
+  and Cloud Data Processing Terms for details.
 
 ---
 
@@ -171,8 +187,10 @@ You can disable Auto Backup for the app in your device's system settings.
   Section 8) or ask us to delete it. Dated backup snapshots are kept on a rolling
   basis (roughly the most recent ~20, plus one per day for up to ~14 older days)
   and are deleted when you delete your account.
-- **Crash/diagnostic reports & feedback:** kept only as long as needed to
-  diagnose issues and respond, and in any case no longer than 12 months.
+- **Crash/diagnostic reports, feedback & "What's new" responses:** kept only as
+  long as needed to diagnose issues, respond, and understand your feedback, and
+  deleted once they are no longer needed for those purposes. You can ask us to
+  delete a report or response you submitted at any time (see Section 8).
 - **Local data on your device:** stays until you delete it in the app, sign out
   (which clears this device after backing up), or uninstall the app.
 
@@ -196,6 +214,11 @@ Under the GDPR (and similar laws) you have the right to **access, rectify, expor
 (portability), delete, restrict, and object** to the processing of your data, and
 to **withdraw consent**. RufusFox supports the main rights directly in the app:
 
+- **Rectify (correct) your data:** app content (tasks, lists, habits, ideas,
+  water, medication, settings) can be edited or deleted directly in the app at
+  any time. For your account email, use your Firebase/Google account settings.
+  For a feedback message or "What's new" response you already submitted, email
+  us and we will correct or delete it.
 - **Export your data:** Settings → "Your data" → **"Export my data"** produces a
   complete JSON file of your app data that you can save or share.
 - **Import your data:** Settings → "Your data" → **"Import my data"** lets you
@@ -214,7 +237,19 @@ your local data protection authority (in Hungary: the **NAIH**).
 
 ---
 
-## 9. Children
+## 9. Business transfers
+
+If Ambifuge Studio is involved in a merger, acquisition, restructuring, or sale
+of some or all of its assets, your data may be transferred to the new owner as
+part of that transaction. We will require the new owner to continue to honor
+this Privacy Policy for data collected under it, and, for any material change in
+how your data is handled, we will provide notice (an in-app notice and/or an
+update to this policy) before the change takes effect. You will still be able to
+export or delete your data at any time, as described in Section 8.
+
+---
+
+## 10. Children
 
 RufusFox is **not directed at children under 16** and we do not knowingly collect
 data from them. If you believe a child has provided us data, contact us and we
@@ -222,7 +257,7 @@ will delete it.
 
 ---
 
-## 10. Changes to this policy
+## 11. Changes to this policy
 
 We may update this policy. We will change the "Last updated" date above and, for
 significant changes, provide an in-app notice. Continued use after an update means
@@ -230,7 +265,7 @@ you accept the revised policy.
 
 ---
 
-## 11. Contact
+## 12. Contact
 
 Questions or requests about this policy or your data:
 **rufusfox.support@gmail.com**.

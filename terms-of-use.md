@@ -4,8 +4,8 @@
 **Last updated:** 2 July 2026
 
 These Terms of Use ("**Terms**") govern your use of the **RufusFox** Android app
-("**RufusFox**", "the app"). The app is provided by **Ambifuge Studio**, an
-individual developer based in Hungary ("**we**", "us"). By installing or using
+("**RufusFox**", "the app"). The app is provided by **László Szarka**, an
+individual developer based in Hungary, operating as **Ambifuge Studio** ("**we**", "us"). By installing or using
 RufusFox, you agree to these Terms and to our **[Privacy Policy](privacy-policy.md)**.
 If you do not agree, do not use the app.
 
@@ -46,9 +46,12 @@ You agree not to:
 
 - Your content (tasks, lists, notes, ideas/links, and other data you enter)
   **belongs to you**. We claim no ownership of it.
-- You are responsible for your content and for keeping your own copies; the
-  **"Export my data"** feature lets you download a full copy at any time, and
-  **"Import my data"** lets you restore a previously exported copy.
+- You are responsible for your content and for keeping your own copies. The
+  **"Export my data"** feature lets you download a full copy at any time as an
+  **unencrypted file**; because this file can include health-related medication
+  data, it is your responsibility to store or share it securely. **"Import my
+  data"** restores a previously exported copy, which **replaces your current
+  data** after you confirm.
 - When you save a link in **Ideas**, the app may automatically fetch a title and
   thumbnail from that link's website (or from YouTube, for YouTube links) to show
   a preview. This sends the link and a request to that third-party site — only
@@ -80,7 +83,9 @@ The app relies on **Google Firebase** for accounts, sync, and abuse protection.
 The **Ideas** feature may also contact **YouTube** or the website behind a link
 you save, to fetch a preview title/thumbnail. Your use of those features is also
 subject to the relevant third party's applicable terms. We are not responsible
-for third-party services or the content of external websites.
+for third-party services or the content of external websites. Because RufusFox is
+distributed through **Google Play**, your installation and use are also subject to
+Google Play's Terms of Service.
 
 ## 8. Disclaimers and limitation of liability
 
@@ -109,6 +114,12 @@ you accept the revised Terms.
 These Terms are governed by the laws of **Hungary**, without prejudice to any
 mandatory consumer-protection rights you have where you live.
 
-## 12. Contact
+## 12. Severability
+
+If any provision of these Terms is found unenforceable or invalid under
+applicable law, that provision will be limited or removed to the minimum extent
+necessary, and the remaining provisions will remain in full force and effect.
+
+## 13. Contact
 
 **rufusfox.support@gmail.com**
